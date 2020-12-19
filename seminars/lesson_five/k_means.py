@@ -10,7 +10,7 @@ Data = {
           8, 7]
     }
 
-# Create a pandas data frame for storing the 2-dimensional datset
+# Create a panda data frame for storing the 2-dimensional datset
 df = DataFrame(Data, columns=['x', 'y'])
 
 # Run kmeans with 4 different clussters

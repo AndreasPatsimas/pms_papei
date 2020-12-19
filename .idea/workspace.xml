@@ -1,7 +1,583 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfaccc97-8781-4b11-98c6-79a98609f651" name="Default Changelist" comment="" />
+    <list default="true" id="bfaccc97-8781-4b11-98c6-79a98609f651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/PIL/Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/PIL/Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/cycler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/cycler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/dateutil/parser/_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/dateutil/parser/_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/_dask.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/_dask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/_memmapping_reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/_memmapping_reducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/backports.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/backports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/func_inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/func_inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/hashing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/numpy_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/numpy_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/numpy_pickle_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/numpy_pickle_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/numpy_pickle_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/numpy_pickle_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/data/create_numpy_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/data/create_numpy_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_dask.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_dask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_func_inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_func_inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_hashing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_memmapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_memmapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_numpy_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_numpy_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_numpy_pickle_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_numpy_pickle_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/joblib/test/test_parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/animation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/animation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/axes/_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/axes/_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/axis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/axis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backend_bases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backend_bases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backends/backend_agg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backends/backend_agg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backends/backend_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backends/backend_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backends/backend_webagg_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/backends/backend_webagg_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/bezier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/bezier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/cbook/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/cbook/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/cm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/cm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/contour.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/contour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/dates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/figure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/figure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/gridspec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/gridspec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/lines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/mlab.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/mlab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/patches.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/patches.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/projections/geo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/projections/geo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/pylab.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/pylab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/pyplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/pyplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/quiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/quiver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/sphinxext/plot_directive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/sphinxext/plot_directive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/testing/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_cbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_cbook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_dates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_preprocess_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_preprocess_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_triangulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_triangulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_units.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tests/test_units.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/texmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/texmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/textpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/textpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tri/triinterpolate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/tri/triinterpolate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/type1font.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/type1font.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/units.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/units.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/matplotlib/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/matplotlib/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/axes_grid1/anchored_artists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/axes_grid1/anchored_artists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/axisartist/angle_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/axisartist/angle_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/mplot3d/art3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/mplot3d/art3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/LICENSES_bundled.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy-1.19.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/.libs/libopenblas.NOIJJG62EMASZI6NYURL6JBKM4EVBGM7.gfortran-win_amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/_distributor_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/_distributor_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_multiarray_tests.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_multiarray_tests.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_multiarray_umath.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_multiarray_umath.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_operand_flag_tests.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_operand_flag_tests.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_rational_tests.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_rational_tests.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_umath_tests.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/_umath_tests.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/lib/npymath.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/lib/npymath.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/core/tests/test_multiarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/core/tests/test_multiarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/distutils/command/autodist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/distutils/command/autodist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/distutils/command/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/distutils/command/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/distutils/fcompiler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/distutils/fcompiler/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/fft/_pocketfft_internal.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/fft/_pocketfft_internal.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/linalg/_umath_linalg.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/linalg/_umath_linalg.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/linalg/lapack_lite.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/linalg/lapack_lite.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_bounded_integers.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_bounded_integers.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_common.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_common.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_examples/cython/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_examples/cython/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_generator.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_generator.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_mt19937.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_mt19937.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_pcg64.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_pcg64.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_philox.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_philox.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_sfc64.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/_sfc64.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/bit_generator.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/bit_generator.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/lib/npyrandom.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/lib/npyrandom.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/mtrand.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/mtrand.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/random/tests/test_extending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/random/tests/test_extending.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/tests/test_public_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/tests/test_public_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/numpy/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/numpy/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas-1.1.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/algos.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/algos.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/groupby.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/groupby.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/hashing.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/hashing.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/hashtable.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/hashtable.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/index.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/index.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/indexing.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/indexing.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/internals.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/internals.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/interval.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/interval.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/join.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/join.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/json.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/json.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/lib.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/lib.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/missing.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/missing.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/ops.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/ops.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/ops_dispatch.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/ops_dispatch.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/parsers.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/parsers.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/properties.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/properties.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/reduction.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/reduction.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/reshape.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/reshape.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/sparse.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/sparse.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/testing.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/testing.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslib.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslib.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/base.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/base.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/ccalendar.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/conversion.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/conversion.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/dtypes.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/dtypes.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/fields.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/fields.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/nattype.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/nattype.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/np_datetime.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/offsets.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/offsets.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/parsing.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/parsing.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/period.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/period.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/strptime.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/strptime.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/timedeltas.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/timestamps.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/timezones.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/timezones.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/tzconversion.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/tzconversion.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/vectorized.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/tslibs/vectorized.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/window/aggregations.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/window/aggregations.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/window/indexers.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/window/indexers.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/writers.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_libs/writers.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/algorithms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/arrays/datetimelike.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/arrays/datetimelike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/arrays/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/arrays/datetimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/arrays/period.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/arrays/period.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/computation/pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/computation/pytables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/dtypes/cast.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/dtypes/cast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/dtypes/dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/dtypes/dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/groupby.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/groupby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/grouper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/grouper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/groupby/ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/datetimelike.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/datetimelike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexes/multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/internals/blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/internals/blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/internals/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/internals/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/ops/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/ops/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/ops/methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/ops/methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/resample.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/resample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/reshape/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/reshape/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/window/indexers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/window/indexers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/core/window/rolling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/core/window/rolling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/io/formats/info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/io/formats/info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/io/parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/io/parsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/io/sas/_sas.cp37-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/io/sas/_sas.cp37-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/io/stata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/io/stata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/arrays/integer/test_arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/arrays/integer/test_arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/arrays/sparse/test_arithmetics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/arrays/sparse/test_arithmetics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/dtypes/test_dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/dtypes/test_dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/apply/test_frame_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/apply/test_frame_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/methods/test_isin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/methods/test_isin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/test_arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/test_arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/test_missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/test_missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/test_reshape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/frame/test_reshape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/generic/test_finalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/generic/test_finalize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/aggregate/test_aggregate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/aggregate/test_aggregate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/aggregate/test_cython.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/aggregate/test_cython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_categorical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_groupby.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_groupby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_groupby_subclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_groupby_subclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_nth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/groupby/test_nth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/datetimes/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/datetimes/test_constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/datetimes/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/datetimes/test_datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/datetimes/test_misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/datetimes/test_misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/multi/test_monotonic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/multi/test_monotonic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/multi/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/multi/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/multiindex/test_loc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/multiindex/test_loc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/multiindex/test_multiindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/multiindex/test_multiindex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/test_loc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/test_loc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/test_partial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/indexing/test_partial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/formats/test_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/formats/test_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/parser/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/parser/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/parser/test_index_col.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/parser/test_index_col.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/pytables/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/pytables/test_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/test_parquet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/test_parquet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/test_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/test_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/test_stata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/io/test_stata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/resample/test_resampler_grouper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/resample/test_resampler_grouper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/reshape/merge/test_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/reshape/merge/test_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/scalar/timedelta/test_arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/scalar/timedelta/test_arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/indexing/test_getitem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/indexing/test_getitem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/indexing/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/indexing/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/methods/test_astype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/methods/test_astype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/methods/test_isin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/methods/test_isin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/test_arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/series/test_arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/test_algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/test_algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/test_downstream.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/test_downstream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/test_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/test_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/tseries/offsets/test_offsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/tseries/offsets/test_offsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/util/test_show_versions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/util/test_show_versions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_grouper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_grouper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_rolling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_rolling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_timeseries_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas/tests/window/test_timeseries_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/compat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/compat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/enigma.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/enigma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/famafrench.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/famafrench.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/io/jsdmx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/io/jsdmx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/io/sdmx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/io/sdmx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/io/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/io/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/moex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/moex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/nasdaq_trader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/nasdaq_trader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/oecd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/oecd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/tests/io/test_jsdmx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/tests/io/test_jsdmx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/tests/test_tiingo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/tests/test_tiingo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/tests/test_wb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/tests/test_wb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/wb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pandas_datareader/wb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/__config__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/__config__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/_build_utils/_fortran.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/_build_utils/_fortran.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/_build_utils/system_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/_build_utils/system_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/_lib/_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/_lib/_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/_lib/tests/test__util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/_lib/tests/test__util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/_lib/tests/test_warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/_lib/tests/test_warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/cluster/hierarchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/cluster/hierarchy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/cluster/vq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/cluster/vq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/_debug_backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/_debug_backends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/tests/mock_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/tests/mock_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/tests/test_fft_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fft/tests/test_fft_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fftpack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fftpack/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/fftpack/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/fftpack/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/integrate/_quadrature.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/integrate/_quadrature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/integrate/quadpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/integrate/quadpack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/_cubic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/_cubic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/interpolate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/interpolate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/tests/test_bsplines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/tests/test_bsplines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/tests/test_interpolate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/interpolate/tests/test_interpolate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/_fortran.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/_fortran.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/arff/arffread.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/arff/arffread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/harwell_boeing/hb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/harwell_boeing/hb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/idl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/idl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/byteordercodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/byteordercodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/mio5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/mio5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/miobase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/miobase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/tests/test_mio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/matlab/tests/test_mio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/mmio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/mmio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/netcdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/netcdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/tests/test_idl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/tests/test_idl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/tests/test_netcdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/tests/test_netcdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/io/wavfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/io/wavfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_decomp_ldl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_decomp_ldl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_generate_pyx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_generate_pyx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_interpolative_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_interpolative_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_matfuncs_inv_ssq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_matfuncs_inv_ssq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_sketches.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_sketches.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_solvers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/_solvers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/decomp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/decomp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/decomp_cholesky.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/decomp_cholesky.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/flinalg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/flinalg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/interpolative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/interpolative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/special_matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/special_matrices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_decomp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_decomp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_fblas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_fblas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_lapack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_lapack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_special_matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/linalg/tests/test_special_matrices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/fourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/fourier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/measurements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/measurements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/morphology.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/ndimage/morphology.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/odr/odrpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/odr/odrpack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_differentialevolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_differentialevolution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_dual_annealing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_dual_annealing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_linprog_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_linprog_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/dogbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/dogbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/lsq_linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/lsq_linear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/trf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_lsq/trf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_numdiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_numdiff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_shgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_shgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_trustregion_constr/qp_subproblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/_trustregion_constr/qp_subproblem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/lbfgsb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/lbfgsb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/nonlin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/nonlin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/optimize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/optimize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__basinhopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__basinhopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__differential_evolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__differential_evolution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__dual_annealing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__dual_annealing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__shgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test__shgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test_minpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test_minpack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test_slsqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/optimize/tests/test_slsqp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_arraytools.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_arraytools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_max_len_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_max_len_seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_peak_finding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_peak_finding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_savitzky_golay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_savitzky_golay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_upfirdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/_upfirdn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/bsplines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/bsplines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/filter_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/filter_design.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/ltisys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/ltisys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/signaltools.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/signaltools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/spectral.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/spectral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_filter_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_filter_design.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_savitzky_golay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_savitzky_golay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_signaltools.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_signaltools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_upfirdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/tests/test_upfirdn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/waveforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/waveforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/windows/windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/signal/windows/windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/_matrix_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/_matrix_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/construct.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/construct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/coo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/coo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/csc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/csc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/csr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/csr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/dia.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/dia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/dok.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/dok.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/_expm_multiply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/_expm_multiply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/_norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/dsolve/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/dsolve/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/dsolve/_add_newdocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/dsolve/_add_newdocs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/isolve/minres.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/isolve/minres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/matfuncs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/matfuncs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/tests/test_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/linalg/tests/test_norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/sputils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/sputils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/sparse/tests/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/kdtree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/kdtree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/tests/test_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/tests/test_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/transform/rotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/spatial/transform/rotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_generate_pyx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_generate_pyx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_logsumexp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_logsumexp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_testutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/_testutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/add_newdocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/add_newdocs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/orthogonal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/orthogonal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_orthogonal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_orthogonal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_spherical_bessel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_spherical_bessel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_wrightomega.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/special/tests/test_wrightomega.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_binned_statistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_binned_statistic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_continuous_distns.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_continuous_distns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_discrete_distns.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_discrete_distns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_distn_infrastructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_distn_infrastructure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_distr_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_distr_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_ksstats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_ksstats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_multivariate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_multivariate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_tukeylambda_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/_tukeylambda_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/contingency.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/contingency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/morestats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/morestats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/mstats_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/mstats_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/mstats_extras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/mstats_extras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/common_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/common_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_binned_statistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_binned_statistic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_continuous_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_continuous_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_discrete_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_discrete_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_distributions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_distributions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_kdeoth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_kdeoth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_morestats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_morestats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_mstats_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_mstats_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_multivariate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_multivariate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/scipy/stats/tests/test_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_affinity_propagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_affinity_propagation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_agglomerative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_agglomerative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_bicluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_bicluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_dbscan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_dbscan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_mean_shift.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_mean_shift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_optics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_optics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_spectral.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/_spectral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/tests/test_k_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cluster/tests/test_k_means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/_column_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/_column_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/tests/test_column_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/tests/test_column_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/tests/test_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/compose/tests/test_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_elliptic_envelope.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_elliptic_envelope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_empirical_covariance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_empirical_covariance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_graph_lasso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_graph_lasso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_robust_covariance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_robust_covariance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_shrunk_covariance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/covariance/_shrunk_covariance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/cross_decomposition/_pls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/cross_decomposition/_pls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_california_housing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_california_housing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_covtype.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_covtype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_kddcup99.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_kddcup99.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_lfw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_lfw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_openml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_openml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_rcv1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_rcv1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_species_distributions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_species_distributions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_svmlight_format_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/_svmlight_format_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/test_california_housing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/test_california_housing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/test_openml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/datasets/tests/test_openml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_fastica.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_fastica.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_incremental_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_incremental_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_nmf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_nmf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_sparse_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/_sparse_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/tests/test_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/decomposition/tests/test_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/discriminant_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/discriminant_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/dummy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/ensemble/_voting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/ensemble/_voting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/ensemble/tests/test_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/ensemble/tests/test_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/externals/_lobpcg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/externals/_lobpcg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/externals/_pilutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/externals/_pilutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/_hash.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/_hash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/tests/test_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/tests/test_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/feature_extraction/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/_iterative.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/_iterative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/_knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/_knn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/tests/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/tests/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/tests/test_impute.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/impute/tests/test_impute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/_plot/partial_dependence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/_plot/partial_dependence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/_plot/tests/test_plot_partial_dependence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/_plot/tests/test_plot_partial_dependence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/tests/test_partial_dependence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/tests/test_partial_dependence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/tests/test_permutation_importance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/inspection/tests/test_permutation_importance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/kernel_ridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/kernel_ridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_coordinate_descent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_coordinate_descent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_huber.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_huber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_passive_aggressive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_passive_aggressive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_ransac.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_ransac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_ridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_ridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_sag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_sag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_stochastic_gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_stochastic_gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_theil_sen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/_theil_sen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/tests/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/tests/test_coordinate_descent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/tests/test_coordinate_descent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/tests/test_least_angle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/linear_model/tests/test_least_angle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/_isomap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/_isomap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/_locally_linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/_locally_linear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/_t_sne.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/_t_sne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/tests/test_spectral_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/tests/test_spectral_embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/tests/test_t_sne.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/manifold/tests/test_t_sne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/_plot/roc_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/_plot/roc_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/_ranking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/cluster/tests/test_unsupervised.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/cluster/tests/test_unsupervised.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/pairwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/pairwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/tests/test_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/tests/test_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/tests/test_pairwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/metrics/tests/test_pairwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/tests/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/tests/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/tests/test_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/tests/test_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/tests/test_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/model_selection/tests/test_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/multiclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/multiclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/multioutput.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/multioutput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/naive_bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_kde.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_kde.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_lof.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_lof.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_nca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_nca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_nearest_centroid.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_nearest_centroid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_unsupervised.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/_unsupervised.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/tests/test_nca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/tests/test_nca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/tests/test_neighbors_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neighbors/tests/test_neighbors_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neural_network/_multilayer_perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neural_network/_multilayer_perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/neural_network/_rbm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/neural_network/_rbm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_discretization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_discretization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_encoders.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_encoders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_function_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_function_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_encoders.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_encoders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_function_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/preprocessing/tests/test_function_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/random_projection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/random_projection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/semi_supervised/_label_propagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/semi_supervised/_label_propagation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/svm/_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/svm/_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_naive_bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_random_projection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/tests/test_random_projection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/tree/_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/tree/_export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/tree/tests/test_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/tree/tests/test_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/_show_versions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/_show_versions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/estimator_checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/estimator_checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/extmath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/extmath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/fixes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/fixes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/multiclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/multiclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_estimator_checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_estimator_checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_multiclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_multiclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_pprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_pprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_show_versions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_show_versions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/tests/test_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/sklearn/utils/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/threadpoolctl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/threadpoolctl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/f2py.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/f2py.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/nump/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/numpy/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/nump/exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/numpy/simple_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/nump/simple_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/pandas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/panda/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/pandas/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/panda/exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/pandas/modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/panda/modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/pandas/pandas_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/panda/pandas_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminars/lesson_five/k_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/lesson_five/k_means.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +590,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iSu9vzUmgvEfFC3HY3uwgxJzE7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +602,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../first_project" />
   </component>
   <component name="RecentsManager">
@@ -33,7 +614,7 @@
       <recent name="C:\Users\andre\pycharm-workspace\pms_papei\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.exercise (1)">
+  <component name="RunManager" selected="Python.global_bank">
     <configuration name="exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pms_papei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,11 +644,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/panda" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/numpy/exercise.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/panda/exercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="global_bank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pms_papei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/global_bank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,34 +720,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pms_papei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\andre\pycharm-workspace\pms_papei\algorithms\pandas\pandas_examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.global_bank" />
+        <item itemvalue="Python.exercise" />
         <item itemvalue="Python.exercise (1)" />
         <item itemvalue="Python.modeling" />
         <item itemvalue="Python.pandas_examples (1)" />
-        <item itemvalue="Python.pandas_examples" />
-        <item itemvalue="Python.exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -163,33 +744,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1605464143086">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1608053538607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605464143086" />
-    <state width="1345" height="168" key="GridCell.Tab.0.bottom" timestamp="1607872258872">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608053538607" />
+    <state width="1345" height="168" key="GridCell.Tab.0.bottom" timestamp="1608380144416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607872258872" />
-    <state width="1345" height="168" key="GridCell.Tab.0.center" timestamp="1607872258871">
+    <state width="1345" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608380144416" />
+    <state width="1345" height="168" key="GridCell.Tab.0.center" timestamp="1608380144416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607872258871" />
-    <state width="1345" height="168" key="GridCell.Tab.0.left" timestamp="1607872258871">
+    <state width="1345" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608380144416" />
+    <state width="1345" height="168" key="GridCell.Tab.0.left" timestamp="1608380144415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607872258871" />
-    <state width="1345" height="168" key="GridCell.Tab.0.right" timestamp="1607872258872">
+    <state width="1345" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608380144415" />
+    <state width="1345" height="168" key="GridCell.Tab.0.right" timestamp="1608380144416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607872258872" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1607854210058">
+    <state width="1345" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608380144416" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1608363778881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607854210058" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607449678406">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1608363778881" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608368633042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607449678406" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608368633042" />
   </component>
 </project>
